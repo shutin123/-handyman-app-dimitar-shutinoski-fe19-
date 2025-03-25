@@ -1,0 +1,60 @@
+.BigButton {
+  width: 327px;
+  height: 48px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-radius: 12px;
+  padding: 8px 32px;
+  gap: 6px;
+  background: linear-gradient(
+    170deg,
+    var(--orange-400),
+    var(--orange-600) 100%
+  );
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-letter-spacing);
+  color: var(--white-50);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+/* Secondary  */
+.BigButton.secondary {
+  background: rgba(220, 253, 63, 1);
+  color: var(--black-900);
+}
+.BigButton.secondary {
+  background: rgba(220, 253, 63, 1);
+  position: relative;
+}
+
+.BigButton.secondary::before {
+  content: "";
+  position: absolute;
+  left: 90px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background-image: url("../../assets/icons/Frame.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Disabled state */
+.BigButton.disabled {
+  background: linear-gradient(
+    180deg,
+    var(--orange-100) 0%,
+    var(--orange-200) 0%
+  );
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+  cursor: not-allowed;
+  color: var(--white-50);
+}

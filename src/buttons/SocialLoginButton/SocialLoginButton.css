@@ -1,0 +1,28 @@
+.SocialLoginButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 327px;
+  height: 48px;
+  position: relative;
+  top: 711px;
+  left: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--grey-400);
+  background-color: var(--white-50);
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  color: var(--black-900);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Icon Styling */
+.social-icon {
+  width: 20px;
+  height: 20px;
+}

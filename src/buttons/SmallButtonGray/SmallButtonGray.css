@@ -1,0 +1,42 @@
+.SmallButtonGray {
+  width: 157.5px;
+  height: 48px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-radius: 12px;
+  gap: 6px;
+  padding: 8px 32px;
+  background-color: var(--white-50);
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-letter-spacing);
+  color: var(--black-900);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.SmallButtonGray.smaller {
+  width: 135px;
+  height: 44px;
+  top: 96px;
+  left: 20px;
+  letter-spacing: var(--button-letter-spacing);
+  padding: 8px 32px;
+  gap: 6px;
+}
+
+.SmallButtonGray::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, var(--orange-500), var(--orange-200) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}

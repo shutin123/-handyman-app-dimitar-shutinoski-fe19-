@@ -1,0 +1,41 @@
+.SmallButtonBlue {
+  width: 157.5px;
+  height: 48px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border-radius: 12px;
+  padding: 8px 32px;
+  gap: 6px;
+  background: linear-gradient(
+    170deg,
+    var(--orange-400),
+    var(--orange-600) 100%
+  );
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-letter-spacing);
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: none;
+}
+
+.SmallButtonBlue.smaller {
+  width: 135px;
+  height: 44px;
+  top: 95px;
+  left: 20px;
+  border-radius: 25px;
+  padding: 8px 32px;
+  gap: 6px;
+  background: linear-gradient(
+    170deg,
+    var(--orange-400),
+    var(--orange-600) 100%
+  );
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+}

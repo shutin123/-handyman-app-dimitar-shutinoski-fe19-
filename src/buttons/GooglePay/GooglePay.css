@@ -1,0 +1,39 @@
+.GooglePayButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 327px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--grey-400);
+  background-color: var(--white-50); /* Default background */
+  box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  color: var(--black-900);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  padding: 8px 16px;
+}
+
+.GooglePayButton:hover {
+  background-color: rgba(233, 233, 233, 0.5);
+}
+.left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Icon Styling */
+.google-icon {
+  margin-right: 6px;
+  width: 16px;
+  height: 16px;
+}
+
+.arrow-icon {
+  width: 16px;
+  height: 16px;
+}
