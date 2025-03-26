@@ -1,0 +1,39 @@
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 327px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid var(--grey-400);
+  padding: 0 16px;
+  background-color: var(--white-50);
+  color: var(--black-200);
+}
+
+.custom-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: var(--b1-font-size);
+  line-height: var(--b1-line-height);
+  color: var(--black-200);
+  background: transparent;
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.input-icon {
+  width: 16px;
+  height: 16px;
+  filter: invert(58%) sepia(0%) saturate(0%) hue-rotate(0deg);
+}
+
+.input-icon.left {
+  margin-right: 10px;
+}
+
+.input-icon.right {
+  margin-left: 10px;
+}

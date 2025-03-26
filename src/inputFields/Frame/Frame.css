@@ -1,0 +1,23 @@
+.input {
+  width: 327px;
+  min-height: 112px;
+  position: relative;
+  top: 149px;
+  left: 30px;
+  border-radius: 12px;
+  border: 1px solid var(--grey-400);
+  padding: 12px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: var(--b1-font-size);
+  line-height: var(--b1-line-height);
+  text-align: left;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  resize: vertical;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--grey-400);
+}
