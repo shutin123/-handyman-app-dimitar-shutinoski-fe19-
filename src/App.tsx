@@ -1,7 +1,6 @@
 import "./App.css";
+import "./styles/typography.css";
 
-function App() {
-  return <></>;
-}
+function App() {}
 
 export default App;
