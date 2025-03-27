@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import ButtonSignUp from "../../../buttons/ButtonSignUp/ButtonSignUp";
-import myImage from "../../../assets/svg/Mode=Light.png";
+import FooterImage from "../../../layouts/FooterImage/FooterImage";
 
 const Footer: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
       />
 
       {/* Image */}
-      <img src={myImage} alt="Footer Image" className="footer-image" />
+      <FooterImage />
     </div>
   );
 };
