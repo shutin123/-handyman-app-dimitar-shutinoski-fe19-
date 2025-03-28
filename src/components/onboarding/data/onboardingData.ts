@@ -1,6 +1,6 @@
 // onboardingData.ts
-import { TextContent } from "./OnboardingTypes";
-import "../../styles/typography.css";
+import { TextContent } from "../types/OnboardingTypes";
+import "../../../styles/typography.css";
 
 export const onboardingData: { text: TextContent; image: string }[] = [
   {

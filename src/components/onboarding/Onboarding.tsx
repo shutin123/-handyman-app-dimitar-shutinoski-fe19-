@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Onboarding.css";
 import "../../styles/colors.css";
 import "../../styles/typography.css";
-import { onboardingData } from "./onboardingData";
+import { onboardingData } from "../onboarding/data/onboardingData";
 import Image from "../onboarding/image/Image";
 import Text from "../onboarding/text/Text";
 import PageIndicator from "../onboarding/pageIndicator/PageIndicator";

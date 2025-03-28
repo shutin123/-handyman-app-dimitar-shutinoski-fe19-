@@ -1,4 +1,4 @@
-import myImage from "../../../src/assets/svg/Mode=Light.png";
+import myImage from "../../../src/assets/svg/Home Indicator.svg";
 const FooterImage: React.FC = () => {
   return (
     <div>

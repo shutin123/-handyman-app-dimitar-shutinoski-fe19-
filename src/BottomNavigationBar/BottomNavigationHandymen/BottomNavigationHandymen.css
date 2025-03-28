@@ -1,0 +1,6 @@
+.BottomNavigationBar {
+  width: 375px;
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+}
