@@ -32,10 +32,6 @@ h6 {
   font-family: var(--font-family);
 }
 
-button:focus {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
 /* Flexbox Layout */
 main {
   flex-grow: 1;

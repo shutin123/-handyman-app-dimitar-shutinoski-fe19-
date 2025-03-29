@@ -1,0 +1,10 @@
+.b4 {
+  font-size: var(--b1-font-size);
+  line-height: var(--b1-line-height);
+  letter-spacing: var(--b1-letter-spacing);
+  color: var(--grey-800);
+  width: 375px;
+  height: 32px;
+  border-top: 1px solid var(--grey-300);
+  padding: 40px;
+}

@@ -1,0 +1,25 @@
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 327px;
+  height: 72px;
+  max-width: 400px;
+  justify-content: space-around;
+}
+
+.subheading {
+  width: 54px;
+  height: 24px;
+  font-weight: var(--subheading-font-weight);
+  font-size: var(--subheading-font-size);
+  line-height: var(--subheading-line-height);
+  letter-spacing: var(--subheading-letter-spacing);
+  color: var(--grey-800);
+  display: flex;
+  justify-content: space-between;
+  gap: 6px;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}

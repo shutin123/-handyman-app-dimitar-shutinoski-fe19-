@@ -1,0 +1,23 @@
+.tabs {
+  width: 327px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-button {
+  font-family: var(--font-family);
+  color: var(--grey-800);
+  background: none;
+  border: none var(--white-50);
+  cursor: pointer;
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  font-weight: var(--button-font-weight);
+  letter-spacing: var(--button-letter-spacing);
+}
+
+.tab-button.active {
+  color: var(--orange-500);
+  border-bottom: 2px solid var(--orange-500);
+}
