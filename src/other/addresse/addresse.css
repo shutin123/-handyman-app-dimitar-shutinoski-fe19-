@@ -1,0 +1,13 @@
+.Frame-1171275032 {
+  width: 294px;
+  height: 20px;
+  border-bottom: 1px solid var(--grey-300);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 4px;
+}
+
+.karte {
+  color: var(--blue-500);
+}

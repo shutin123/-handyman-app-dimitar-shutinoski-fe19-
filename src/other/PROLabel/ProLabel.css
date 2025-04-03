@@ -1,0 +1,22 @@
+.pro-label {
+  width: 94px;
+  height: 26px;
+  border-radius: 8px;
+  padding-top: 5px;
+  padding-right: 7px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  gap: 4px;
+  background: rgba(220, 253, 63, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pro-text {
+  width: 58px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+}

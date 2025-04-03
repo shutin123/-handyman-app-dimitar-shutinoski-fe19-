@@ -6,14 +6,14 @@ type ButtonProps = {
   label: string;
   onClick: () => void;
   size?: "default" | "smaller";
-  style?: React.CSSProperties; // ✅ Add style prop here
+  style?: React.CSSProperties;
 };
 
 const SmallButtonBlue: React.FC<ButtonProps> = ({
   label,
   onClick,
   size = "default",
-  style, // ✅ Accept style prop
+  style,
 }) => {
   return (
     <button

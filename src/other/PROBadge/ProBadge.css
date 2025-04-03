@@ -1,0 +1,24 @@
+.pro-badge {
+  width: 21px;
+  height: 21px;
+  background-color: rgba(220, 253, 63, 1);
+  border-radius: 22px;
+  position: relative;
+}
+.pro-badge img {
+  width: 13px;
+  height: 12px;
+}
+
+.pro-badge.big {
+  width: 35px;
+  height: 35px;
+}
+
+.pro-badge.big img {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 19px;
+  height: 19px;
+}
