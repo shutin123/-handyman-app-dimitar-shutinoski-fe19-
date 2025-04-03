@@ -9,7 +9,7 @@ const Text: React.FC<TextProps> = ({ heading, paragraph }) => {
   return (
     <div className="text-container">
       <h2>{heading}</h2>
-      <p>{paragraph}</p>
+      <p className="subheading">{paragraph}</p>
     </div>
   );
 };
