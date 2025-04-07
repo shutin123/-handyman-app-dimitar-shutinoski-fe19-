@@ -5,8 +5,11 @@ import Woman from "../../assets/icons/Ellipse 148.svg";
 import Location from "../../assets/icons/Vector (7).svg";
 import SmallButtonBlue from "../../buttons/SmallButtonBlue/SmallButtonBlue";
 import Down from "../../assets/icons/Frame-down.svg";
+import { userData } from "../userData";
 
 const ClientPostingDefault: React.FC = () => {
+  const user = userData[0];
+
   return (
     <div className="ClientPostingDefault">
       <div className="frame-232">
@@ -15,8 +18,8 @@ const ClientPostingDefault: React.FC = () => {
             <img src={Woman} alt="woman-picture" />
           </div>
           <div className="frame-227">
-            <span className="b1 name">Anna Müller</span>
-            <span className="c2 trust">Vertrauenswürdig</span>
+            <span className="b1 name">{user.name}</span>
+            <span className="c2 trust">{user.trust}</span>
           </div>
         </div>
         <div className="frame-851">
@@ -25,22 +28,19 @@ const ClientPostingDefault: React.FC = () => {
       </div>
       <div className="frame-0237">
         <div className="frame-233">
-          <span className="b1 text">Ein undichtes Rohr reparieren</span>
-          <span className="c2 star">Vor 3 Tagen</span>
+          <span className="b1 text">{user.type?.[1]}</span>
+          <span className="c2 star">{user.timeAgo}</span>
         </div>
-        <div className="label">
-          Lokalisieren Sie die Quelle des Lecks, stellen Sie die
-          Wasserversorgung ab...
-        </div>
+        <div className="label"></div>
         <div className="frame-848">
           <div className="location">
             <img src={Location} alt="location-tag" />
-            <span className="label text-48">Berlin, Deutschland</span>
+            <span className="label text-48">{user.location}</span>
           </div>
         </div>
         <div className="frame-032">
-          <span className="b4 frame032">Adresse</span>
-          <span className="c1 text-032">Auf der Karte anzeigen</span>
+          <span className="b4 frame032">{user.mapAddres}</span>
+          <span className="c1 text-032">{user.map}</span>
         </div>
       </div>
       <div className="Frame-1984077849">

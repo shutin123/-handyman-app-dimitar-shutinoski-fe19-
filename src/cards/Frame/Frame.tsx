@@ -4,8 +4,11 @@ import Woman from "../../assets/icons/Ellipse 148.svg";
 import Location from "../../assets/icons/Vector (7).svg";
 import Dringed from "../../assets/icons/Frame 1984077851.svg";
 import Down from "../../assets/icons/Frame-down.svg";
+import { userData } from "../userData";
 
 const Frame: React.FC = () => {
+  const user = userData[0];
+
   return (
     <div className="frame-35">
       <div className="frame-34">
@@ -15,31 +18,28 @@ const Frame: React.FC = () => {
               <img src={Woman} alt="woman-picture" />
             </div>
             <div className="frame-27">
-              <span className="b1 name">Anna Müller</span>
-              <span className="c2 trust">Vertrauenswürdig</span>
+              <span className="b1 name">{user.name}</span>
+              <span className="c2 trust">{user.trust}</span>
             </div>
             <div className="frame-48">
               <div className="img-container">
                 <img src={Location} alt="location-tag" />
               </div>
-              <span className="c2 text-48">Berlin, Deutschland</span>
+              <span className="c2 text-48">{user.location}</span>
             </div>
-            <span className="c1 text-auf">Auf der Karte anzeigen</span>
+            <span className="c1 text-auf">{user.map}</span>
           </div>
         </div>
         <div className="frame-37">
           <div className="frame-237">
-            <span className="b1 text">Fix a leaking pipe</span>
+            <span className="b1 text-type">{user.type?.[0]}</span>
             <div className="frame-851">
-              <img src={Dringed} alt="priority-icon" />
+              <span className="c2 star">{user.timeAgo}</span>
             </div>
-            <span className="c2 star">Vor 3 Tagen</span>
+            <img src={Dringed} alt="priority-icon" />
           </div>
 
-          <span className="label">
-            Lokalisieren Sie die Quelle des Lecks, stellen Sie die
-            Wasserversorgung Lokalisieren Sie die Quelle des...
-          </span>
+          <span className="label">{user.description}</span>
         </div>
       </div>
       <div>
