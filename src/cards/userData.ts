@@ -28,4 +28,11 @@ export const userData = [
     decription:
       "10+ Jahre Erfahrung in der Branche. Verfügbar für dringende Einsätze. Tätig in der gesamten Region rund um Rheda-Wiedenbrück.",
   },
+  {
+    id: 4,
+    name: "Franco Krause",
+    location: "Süddeutschland",
+    description:
+      "Lorem ipsum dolor sit amet consectetur. Eget lectus integer sed bibendum faucibus pulvinar. Urna justo tempus posuere lectus gravida.",
+  },
 ];

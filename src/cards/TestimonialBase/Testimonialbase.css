@@ -1,0 +1,47 @@
+.clientfeedback-card {
+  width: 327px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.vertical-container {
+  width: 327px;
+  height: 40px;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.vertical-container .inner-element {
+  width: 159.5px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.clientfeedback-location {
+  width: 159.5px;
+  height: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.clientfeedback-location {
+  color: var(--orange-500);
+}
+
+.testimonial-base {
+  width: 327px;
+  height: 16px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Frame-427320205 {
+  width: 84px;
+  height: 16px;
+}
