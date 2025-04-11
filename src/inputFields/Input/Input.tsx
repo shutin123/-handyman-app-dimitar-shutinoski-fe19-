@@ -1,27 +1,32 @@
 import React from "react";
 import "./Input.css";
-import lockIcon from "../../assets/icons/lock_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
 import "../../styles/colors.css";
 
 type InputProps = {
   placeholder: string;
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  leftIcon?: boolean;
-  rightIcon?: boolean;
+  leftIcon?: string | React.ReactNode;
+  rightIcon?: string | React.ReactNode;
 };
 
 const Input: React.FC<InputProps> = ({
   placeholder,
   value,
   onChange,
-  leftIcon = false,
-  rightIcon = false,
+  leftIcon,
+  rightIcon,
 }) => {
   return (
     <div className="input-container">
       {leftIcon && (
-        <img src={lockIcon} alt="Left Icon" className="input-icon left" />
+        <span className="input-icon left">
+          {typeof leftIcon === "string" ? (
+            <img src={leftIcon} alt="Left Icon" />
+          ) : (
+            leftIcon
+          )}
+        </span>
       )}
       <input
         type="text"
@@ -31,7 +36,13 @@ const Input: React.FC<InputProps> = ({
         onChange={onChange}
       />
       {rightIcon && (
-        <img src={lockIcon} alt="Right Icon" className="input-icon right" />
+        <span className="input-icon right">
+          {typeof rightIcon === "string" ? (
+            <img src={rightIcon} alt="Right Icon" />
+          ) : (
+            rightIcon
+          )}
+        </span>
       )}
     </div>
   );

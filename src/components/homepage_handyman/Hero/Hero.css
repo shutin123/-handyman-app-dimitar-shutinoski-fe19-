@@ -1,0 +1,40 @@
+.hero {
+  width: 375px;
+  height: 768px;
+  top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-title {
+  width: 327px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.text-hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subheading-hero-text {
+  width: 327px;
+  height: 48px;
+  padding: 20px;
+}
+
+.Frame-427320206 {
+  width: 254;
+  height: 272;
+  top: 312px;
+  left: 61px;
+}
