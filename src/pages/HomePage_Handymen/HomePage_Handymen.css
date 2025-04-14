@@ -1,0 +1,13 @@
+.homepage-handymen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
