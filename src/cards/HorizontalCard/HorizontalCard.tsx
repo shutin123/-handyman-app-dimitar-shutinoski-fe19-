@@ -43,7 +43,7 @@ const HorizontalCard: React.FC = () => {
       </div>
       <div className="Chip-Services">
         {user.services?.map((service, index) => (
-          <span key={index} className="label chip">
+          <span key={index} className="c1 chip">
             {service}
           </span>
         ))}
