@@ -31,7 +31,9 @@ const ClientPostingDefault: React.FC = () => {
           <span className="b1 text">{user.type?.[1]}</span>
           <span className="c2 star">{user.timeAgo}</span>
         </div>
-        <div className="label"></div>
+        <div className=" label ClientPostingDefault-description">
+          {user.description}
+        </div>
         <div className="frame-848">
           <div className="location">
             <img src={Location} alt="location-tag" />
@@ -39,7 +41,7 @@ const ClientPostingDefault: React.FC = () => {
           </div>
         </div>
         <div className="frame-032">
-          <span className="b4 frame032">{user.mapAddres}</span>
+          <span className="label">{user.mapAddres}</span>
           <span className="c1 text-032">{user.map}</span>
         </div>
       </div>

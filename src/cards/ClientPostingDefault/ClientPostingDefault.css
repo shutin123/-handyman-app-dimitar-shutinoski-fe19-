@@ -107,3 +107,7 @@
   flex-direction: row;
   justify-content: end;
 }
+.ClientPostingDefault-description {
+  display: flex;
+  text-align: start;
+}
