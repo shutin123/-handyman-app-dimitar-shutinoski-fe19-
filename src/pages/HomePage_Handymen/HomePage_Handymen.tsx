@@ -9,12 +9,15 @@ import Frame1984077828 from "../../components/homepage_handyman/Scrols/Frame-198
 import FeaturesSection from "../../components/homepage_handyman/FeaturesSection/FeaturesSection";
 import Frame1984077823 from "../../components/homepage_handyman/Frame-1984077823/Frame-1984077823";
 import Testimonials from "../../components/homepage_handyman/Testimonials/Testimonials";
+import SectionValueProposition from "../../components/homepage_handyman/Section-Value-Proposition/Section-Value-Proposition";
 
 const HomePageHandymen: React.FC = () => {
   return (
     <div className="homepage-handymen">
       <div className="top-section">
-        <StatusBar />
+        <div className="status-bar">
+          <StatusBar />
+        </div>
         <Hero />
       </div>
       <ValueProposition />
@@ -23,6 +26,7 @@ const HomePageHandymen: React.FC = () => {
       <FeaturesSection />
       <Frame1984077823 />
       <Testimonials />
+      <SectionValueProposition />
       <Footer />
     </div>
   );

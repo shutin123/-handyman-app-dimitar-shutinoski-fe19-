@@ -1,0 +1,61 @@
+.SectionValueProposition {
+  width: 327px;
+  height: 396px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SectionValuePropositionHeader {
+  width: 327px;
+  height: 120px;
+  position: relative;
+}
+
+.SectionValuePropositionHeader ::before {
+  content: "";
+  position: absolute;
+  top: 95px;
+  right: 13px;
+  width: 100px;
+  height: 64px;
+  background-image: url("../../../assets/svg/SectionValueProposition.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 0;
+  opacity: 1;
+}
+
+.SectionValuePropositionHeader h1 {
+  position: relative;
+  z-index: 1;
+}
+
+.SectionValuePropositionAvatars {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  display: inline-block;
+  margin-left: -12px;
+  z-index: 2;
+  position: relative;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.avatar img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.SectionValuePropositionDescription {
+  height: 48px;
+}

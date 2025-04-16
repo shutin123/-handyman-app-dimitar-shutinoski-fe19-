@@ -4,10 +4,21 @@
   justify-content: space-between;
   align-items: center;
   gap: 50px;
+  margin: 0 auto;
+  padding-top: 64px;
 }
 
 .top-section {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 375px;
+  z-index: 999;
+  background-color: white;
 }
