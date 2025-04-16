@@ -1,7 +1,7 @@
 import React from "react";
 import "./Frame-1984077823.css";
-import ClientPostingDefault from "../../../../cards/ClientPostingDefault/ClientPostingDefault";
-import ButtonSignUp from "../../../../buttons/ButtonSignUp/ButtonSignUp";
+import ClientPostingDefault from "../../../cards/ClientPostingDefault/ClientPostingDefault";
+import ButtonSignUp from "../../../buttons/ButtonSignUp/ButtonSignUp";
 
 const Frame1984077823: React.FC = () => {
   return (
