@@ -15,8 +15,10 @@ const SocialLoginButton: React.FC<SocialLoginButtonProps> = ({
 }) => {
   return (
     <button className="SocialLoginButton" onClick={onClick}>
-      <img src={iconSrc} alt="social icon" className="social-icon" />
-      {label}
+      <div className="button-inner">
+        <img src={iconSrc} alt="social icon" className="social-icon" />
+        <span className="b3">{label}</span>
+      </div>
     </button>
   );
 };

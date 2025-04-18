@@ -7,3 +7,42 @@
   justify-content: space-between;
   align-items: center;
 }
+.fullpage-menu {
+  position: fixed;
+  height: 566px;
+  width: 327px;
+  background-color: var(--white-50);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-content {
+  text-align: center;
+  width: 100%;
+  padding: 24px;
+}
+
+.menu-content ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 48px;
+}
+
+.menu-content li {
+  font-size: 24px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}

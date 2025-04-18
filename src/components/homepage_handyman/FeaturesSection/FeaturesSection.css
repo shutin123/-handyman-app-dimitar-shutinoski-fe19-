@@ -5,6 +5,7 @@
   width: 375px;
   height: 1032px;
   gap: 32px;
+  align-items: center;
 }
 
 .container-features-section {
@@ -18,6 +19,11 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+}
+
+.content-heading {
+  display: flex;
+  text-align: center;
 }
 
 ._feature-text {
@@ -44,6 +50,7 @@
   width: 327px;
   height: 64px;
   gap: 4px;
+  text-align: center;
 }
 
 ._feature-text-supporting-text {

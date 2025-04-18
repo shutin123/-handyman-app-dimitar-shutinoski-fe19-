@@ -5,6 +5,7 @@
   height: 448px;
   gap: 32px;
   margin: 0 auto;
+  align-items: center;
 }
 
 .categories-grid {
@@ -12,7 +13,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
-
   height: 336px;
 }
 
@@ -20,6 +20,7 @@
   width: 100px;
   height: 100px;
   position: relative;
+  display: flex;
   align-items: center;
   border-radius: 10px;
   box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.05);

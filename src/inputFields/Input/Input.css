@@ -30,10 +30,35 @@
   filter: invert(58%) sepia(0%) saturate(0%) hue-rotate(0deg);
 }
 
+.Frame11 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.input-icon.left img,
+.input-icon.right img {
+  width: 20px;
+  height: 20px;
+}
+
 .input-icon.left {
   margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .input-icon.right {
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  flex: 1;
+  min-width: 0;
 }

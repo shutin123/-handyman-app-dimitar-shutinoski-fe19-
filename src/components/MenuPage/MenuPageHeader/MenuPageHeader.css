@@ -1,0 +1,20 @@
+.menu-page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  height: 40px;
+  align-items: center;
+}
+
+.menu-page-header-logo img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.menu-page-header-close img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

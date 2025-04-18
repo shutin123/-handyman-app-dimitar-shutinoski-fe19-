@@ -1,0 +1,7 @@
+.MenuPageButtons {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 192px;
+  gap: 16px;
+}

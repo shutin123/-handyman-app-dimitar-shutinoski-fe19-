@@ -9,6 +9,8 @@
 }
 
 .Frame1984077828-text {
+  display: flex;
+  text-align: center;
   height: 80px;
 }
 
