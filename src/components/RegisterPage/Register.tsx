@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import StatusBar from "../../layouts/StatusBar/StatusBar";
 import Frame427320064 from "../SignUpPage/Frame427320064/Frame427320064";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +11,13 @@ import RegisterSignUp from "./RegisterSignUp/RegisterSignUp";
 
 const Register: React.FC = () => {
   const navigate = useNavigate();
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
+    telephone: "",
+  });
 
   const handleGoHome = () => {
     navigate("/");
@@ -25,8 +32,8 @@ const Register: React.FC = () => {
         <img src={Logo} alt="logo" onClick={handleGoHome} />
       </div>
       <Frame427320064 />
-      <RegisterInput />
-      <RegisterSignUp />
+      <RegisterInput onDataChange={setFormData} />
+      <RegisterSignUp formData={formData} />
       <Frame427320066 />
       <div className="sign-up-page-footer-image" onClick={handleGoHome}>
         <FooterImage />

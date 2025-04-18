@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./RegisterInput.css";
 import Person from "../../../assets/icons/person_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24 (1)-1.svg";
 import Mail from "../../../assets/icons/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg";
@@ -8,7 +8,17 @@ import EyeIcon from "../../../assets/icons/Microphone.svg";
 
 import Input from "../../../inputFields/Input/Input";
 
-const RegisterInput: React.FC = () => {
+interface RegisterInputProps {
+  onDataChange: (data: {
+    name: string;
+    email: string;
+    password: string;
+    confirmPassword: string;
+    telephone: string;
+  }) => void;
+}
+
+const RegisterInput: React.FC<RegisterInputProps> = ({ onDataChange }) => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -17,6 +27,16 @@ const RegisterInput: React.FC = () => {
 
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+
+  useEffect(() => {
+    onDataChange({
+      name,
+      email,
+      password,
+      confirmPassword,
+      telephone,
+    });
+  }, [name, email, password, confirmPassword, telephone, onDataChange]);
 
   return (
     <div className="register-inputs">

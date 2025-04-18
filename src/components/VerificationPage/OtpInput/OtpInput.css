@@ -1,0 +1,23 @@
+.OTP-Code {
+  display: flex;
+  gap: 16px;
+  width: 272px;
+  margin-bottom: 24px;
+}
+
+.otp-input {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--grey-400);
+  border-radius: 12px;
+  padding: 8px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.otp-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}

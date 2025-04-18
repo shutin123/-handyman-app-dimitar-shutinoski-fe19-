@@ -8,7 +8,7 @@ type ButtonSignUpProps = {
 
 const ButtonSignUp: React.FC<ButtonSignUpProps> = ({ label, onClick }) => {
   return (
-    <button className={`ButtonSignUp  `} onClick={onClick}>
+    <button className="ButtonSignUp" onClick={onClick}>
       {label}
     </button>
   );
