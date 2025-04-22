@@ -34,7 +34,7 @@ const VerificationPageComponent: React.FC = () => {
 
         sessionStorage.removeItem("userPhoneNumber");
 
-        navigate("/menu/signup/as-craftsmen/welcome");
+        navigate("/menu/signup/as-craftsmen/all-set");
       } else {
         setError("Invalid verification code. Please try again.");
       }

@@ -18,7 +18,9 @@ const BigButton: React.FC<ButtonProps> = ({
 }) => {
   return (
     <button
-      className={`BigButton ${colorVariant} ${disabled ? "disabled" : ""}`}
+      className={`button BigButton ${colorVariant} ${
+        disabled ? "disabled" : ""
+      }`}
       onClick={onClick}
       disabled={disabled}
     >

@@ -1,0 +1,13 @@
+.sign-in-social-login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  width: 100%;
+  padding: 0 24px;
+}
+
+.SocialLoginButton {
+  width: 327px;
+  height: 48px;
+}

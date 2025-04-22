@@ -2,8 +2,6 @@
   width: 327px;
   height: 48px;
   position: relative;
-  top: 20px;
-  left: 20px;
   border-radius: 12px;
   padding: 8px 32px;
   gap: 6px;
@@ -13,11 +11,6 @@
     var(--orange-600) 100%
   );
   box-shadow: 8px 5px 8px 0px rgba(0, 0, 0, 0.05) inset;
-  font-family: var(--font-family);
-  font-weight: var(--button-font-weight);
-  font-size: var(--button-font-size);
-  line-height: var(--button-line-height);
-  letter-spacing: var(--button-letter-spacing);
   color: var(--white-50);
   cursor: pointer;
   transition: all 0.3s ease-in-out;

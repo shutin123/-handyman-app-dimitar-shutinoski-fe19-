@@ -5,6 +5,9 @@ import MenuPage from "./pages/MenuPage/MenuPage";
 import SignUp from "./pages/SignUpPage/SignUpPage";
 import RegisterPage from "./pages/RegisterPage/RegisterPage";
 import VerificationPage from "./pages/VerificationPage/VerificationPage";
+import SignInPage from "./pages/SignInPage/SignInPage";
+import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPasswordPage";
+import ProfileAllSetPage from "./pages/ProfileAllSetPage/ProfileAllSetPage";
 
 const App: React.FC = () => {
   return (
@@ -19,6 +22,15 @@ const App: React.FC = () => {
       <Route
         path="/menu/signup/as-craftsmen/register/verification"
         element={<VerificationPage />}
+      />
+      <Route path="/menu/signup/as-craftsmen/signin" element={<SignInPage />} />
+      <Route
+        path="/menu/signup/as-craftsmen/reset-password"
+        element={<ResetPasswordPage />}
+      />
+      <Route
+        path="/menu/signup/as-craftsmen/all-set"
+        element={<ProfileAllSetPage />}
       />
     </Routes>
   );

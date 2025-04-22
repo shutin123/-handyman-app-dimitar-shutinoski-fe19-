@@ -1,8 +1,8 @@
 import React from "react";
-import "./SignInPage.css";
+import SignIn from "../../components/SignInPage/SignIn";
 
-const SignIn: React.FC = () => {
-  return <div></div>;
+const SignInPage: React.FC = () => {
+  return <SignIn />;
 };
 
-export default SignIn;
+export default SignInPage;
