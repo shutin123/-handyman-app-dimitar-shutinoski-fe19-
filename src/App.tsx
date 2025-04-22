@@ -8,7 +8,7 @@ import VerificationPage from "./pages/VerificationPage/VerificationPage";
 import SignInPage from "./pages/SignInPage/SignInPage";
 import ResetPasswordPage from "./pages/ResetPasswordPage/ResetPasswordPage";
 import ProfileAllSetPage from "./pages/ProfileAllSetPage/ProfileAllSetPage";
-
+/* THIS PAGE IS ONLY MADE FOR 375PX NOTHING LARGER OR SMALLER */
 const App: React.FC = () => {
   return (
     <Routes>
