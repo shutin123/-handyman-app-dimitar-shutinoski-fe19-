@@ -1,0 +1,13 @@
+.profile-all-set-body {
+  width: 327px;
+  height: 600px;
+}
+
+.profile-all-set-body-img img {
+  width: 120px;
+  height: 120px;
+}
+
+.profile-all-set-body-text-description {
+  color: var(--grey-600);
+}

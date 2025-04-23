@@ -1,0 +1,12 @@
+.horizontal-card-three {
+  width: 326px;
+  height: 193px;
+  top: 475px;
+  left: 574px;
+  border-bottom-width: 0.3px;
+  gap: 12px;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}

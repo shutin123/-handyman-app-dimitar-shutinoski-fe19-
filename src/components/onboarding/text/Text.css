@@ -1,0 +1,12 @@
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  width: 343px;
+  height: 144px;
+  top: 451px;
+  left: 16px;
+  gap: 8px;
+}

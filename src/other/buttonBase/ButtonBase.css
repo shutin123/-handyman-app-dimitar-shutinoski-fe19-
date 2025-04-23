@@ -1,0 +1,40 @@
+.button-base {
+  position: relative;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 34px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.button-base.default {
+  background-color: var(--orange-200);
+  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.button-base.variant2 {
+  background-color: var(--orange-500);
+  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.circle {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 15px;
+  background-color: var(--white-50);
+  transition: transform 0.3s ease-out;
+  box-shadow: 2px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+}
+
+.button-base.variant2 .circle {
+  transform: translateX(13px);
+}

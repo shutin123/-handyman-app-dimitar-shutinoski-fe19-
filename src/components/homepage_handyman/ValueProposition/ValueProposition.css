@@ -1,0 +1,40 @@
+.value-propostion {
+  width: 327px;
+  height: 224px;
+  gap: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.value-proposition-header {
+  width: 327px;
+  height: 40px;
+}
+.value-proposition-listitems {
+  width: 327px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.value-proposition-vector {
+  padding: 20px;
+  margin-left: 80px;
+}
+
+.value-proposition-listitem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 327px;
+  height: 32px;
+  gap: 16px;
+}
+
+.value-proposition-item-text {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

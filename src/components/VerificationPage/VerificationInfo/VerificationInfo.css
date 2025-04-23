@@ -1,0 +1,15 @@
+.verification-error {
+  color: var(--orange-500);
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.verification-info {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: var(--grey-200);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}

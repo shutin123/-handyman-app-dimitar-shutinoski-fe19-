@@ -1,0 +1,19 @@
+.Frame427320064 {
+  width: 327px;
+  height: 48px;
+  gap: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  top: 224px;
+  left: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--grey-500);
+}
+
+.sign-up-option2 {
+  cursor: pointer;
+  color: var(--orange-500);
+}

@@ -1,0 +1,187 @@
+/* Font Face Declaration for Inter */
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Base Font */
+:root {
+  --font-family: "Inter", sans-serif;
+
+  /* Typography Sizes */
+  --h0-font-size: 48px;
+  --h1-font-size: 32px;
+  --h2-font-size: 24px;
+  --h3-font-size: 20px;
+  --subheading-font-size: 18px;
+  --title-font-size: 16px;
+  --b1-font-size: 14px;
+  --b2-font-size: 14px;
+  --b3-font-size: 14px;
+  --b4-font-size: 12px;
+  --c1-font-size: 10px;
+  --c2-font-size: 10px;
+  --label-font-size: 12px;
+  --button-font-size: 12px;
+
+  /* Line Heights */
+  --h0-line-height: 48px;
+  --h1-line-height: 40px;
+  --h2-line-height: 32px;
+  --h3-line-height: 24px;
+  --subheading-line-height: 24px;
+  --title-line-height: 20px;
+  --b1-line-height: 16px;
+  --b2-line-height: 16px;
+  --b3-line-height: 16px;
+  --b4-line-height: 16px;
+  --c1-line-height: 16px;
+  --c2-line-height: 12px;
+  --label-line-height: 16px;
+  --button-line-height: 16px;
+
+  /* Spacings */
+  --h0-letter-spacing: 0;
+  --h1-letter-spacing: 0;
+  --h2-letter-spacing: 0;
+  --h3-letter-spacing: 0;
+  --subheading-letter-spacing: 0;
+  --title-letter-spacing: 0;
+  --b1-letter-spacing: 0;
+  --b2-letter-spacing: 0;
+  --b3-letter-spacing: 0;
+  --b4-letter-spacing: 0;
+  --c1-letter-spacing: 0;
+  --c2-letter-spacing: 0;
+  --label-letter-spacing: 0;
+  --button-letter-spacing: 0;
+
+  /* Font Weights */
+  --h0-font-weight: bold;
+  --h1-font-weight: medium;
+  --h2-font-weight: regular;
+  --h3-font-weight: regular;
+  --subheading-font-weight: regular;
+  --title-font-weight: bold;
+  --b1-font-weight: bold;
+  --b2-font-weight: medium;
+  --b3-font-weight: regular;
+  --b4-font-weight: regular;
+  --c1-font-weight: bold;
+  --c2-font-weight: regular;
+  --label-font-weight: medium;
+  --button-font-weight: bold;
+}
+
+/* Global Font */
+body {
+  font-family: var(--font-family);
+}
+
+/* Headings */
+h1 {
+  font-weight: var(--h1-font-weight);
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+  letter-spacing: var(--h1-letter-spacing);
+}
+
+h2 {
+  font-weight: var(--h2-font-weight);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
+  letter-spacing: var(--h2-letter-spacing);
+}
+
+h3 {
+  font-weight: var(--h3-font-weight);
+  font-size: var(--h3-font-size);
+  line-height: var(--h3-line-height);
+  letter-spacing: var(--h3-letter-spacing);
+}
+
+/* Subheading */
+.subheading {
+  font-weight: var(--subheading-font-weight);
+  font-size: var(--subheading-font-size);
+  line-height: var(--subheading-line-height);
+  letter-spacing: var(--subheading-letter-spacing);
+}
+
+/* Titles */
+.title {
+  font-weight: var(--title-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--title-line-height);
+  letter-spacing: var(--title-letter-spacing);
+}
+
+/* Body Texts */
+.b1 {
+  font-weight: var(--b1-font-weight);
+  font-size: var(--b1-font-size);
+  line-height: var(--b1-line-height);
+  letter-spacing: var(--b1-letter-spacing);
+}
+
+.b2 {
+  font-weight: var(--b2-font-weight);
+  font-size: var(--b2-font-size);
+  line-height: var(--b2-line-height);
+  letter-spacing: var(--b2-letter-spacing);
+}
+
+.b3 {
+  font-weight: var(--b3-font-weight);
+  font-size: var(--b3-font-size);
+  line-height: var(--b3-line-height);
+  letter-spacing: var(--b3-letter-spacing);
+}
+
+.b4 {
+  font-weight: var(--b4-font-weight);
+  font-size: var(--b4-font-size);
+  line-height: var(--b4-line-height);
+  letter-spacing: var(--b4-letter-spacing);
+}
+
+/* Captions */
+.c1 {
+  font-weight: var(--c1-font-weight);
+  font-size: var(--c1-font-size);
+  line-height: var(--c1-line-height);
+  letter-spacing: var(--c1-letter-spacing);
+}
+
+.c2 {
+  font-weight: var(--c2-font-weight);
+  font-size: var(--c2-font-size);
+  line-height: var(--c2-line-height);
+  letter-spacing: var(--c2-letter-spacing);
+}
+
+/* Labels */
+.label {
+  font-weight: var(--label-font-weight);
+  font-size: var(--label-font-size);
+  line-height: var(--label-line-height);
+  letter-spacing: var(--label-letter-spacing);
+}
+
+/* Buttons */
+.button {
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-letter-spacing);
+}

@@ -1,0 +1,69 @@
+.HorizontalCardTwo {
+  width: 327px;
+  height: 114px;
+  border-bottom-width: 1px;
+  padding: 20px 12px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.handymen-info-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Frame-427320203-two {
+  width: 161px;
+  height: 36px;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.name-horizontal-card-two {
+  width: 112px;
+  height: 16px;
+}
+
+.name-and-verifiedmark-two {
+  width: 161px;
+  height: 16px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-horizontal-card-two {
+  width: 155px;
+  height: 16px;
+  gap: 4px;
+  display: flex;
+  font-display: row;
+  align-items: center;
+}
+
+.Frame-427320204-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.Chip-Services-two {
+  width: 303px;
+  height: 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.chip-two {
+  padding: 6px 8px;
+  border-radius: 4px;
+  background-color: var(--blue-50);
+
+  color: var(--blue-400);
+  white-space: nowrap;
+}

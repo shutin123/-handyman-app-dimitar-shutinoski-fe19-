@@ -1,0 +1,8 @@
+.sign-in-header {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+}
+.sign-in-header-header {
+  margin-top: 20px;
+}

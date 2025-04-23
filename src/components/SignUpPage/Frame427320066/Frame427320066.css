@@ -1,0 +1,9 @@
+.Frame427320066 {
+  display: flex;
+  color: var(--grey-800);
+  cursor: pointer;
+}
+
+.Frame427320066-option-register {
+  color: var(--orange-500);
+}

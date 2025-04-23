@@ -1,0 +1,29 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+  height: 272px;
+}
+
+.align-left {
+  align-self: flex-start;
+}
+
+.align-right {
+  align-self: flex-end;
+}
+
+/* Slight vertical offset for first and third images */
+.group__image:first-child {
+  transform: translateY(20px);
+}
+
+.group__image:nth-child(3) {
+  transform: translateY(-27px);
+}
+
+.group__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}

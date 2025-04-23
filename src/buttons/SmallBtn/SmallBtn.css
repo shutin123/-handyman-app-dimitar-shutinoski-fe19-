@@ -1,0 +1,26 @@
+.SmallBtn {
+  width: 48px;
+  height: 28px;
+  position: relative;
+  top: 43px;
+  left: 505px;
+  border-radius: 12px;
+  border-width: 1px;
+  padding: 6px 14px;
+  gap: 10px;
+  background: var(--white-50);
+  border: 1px solid var(--orange-500);
+  font-family: var(--font-family);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
+  letter-spacing: var(--button-letter-spacing);
+  color: var(--black-500);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.SmallBtn.alt {
+  background: var(--orange-500);
+  color: var(--white-50);
+}

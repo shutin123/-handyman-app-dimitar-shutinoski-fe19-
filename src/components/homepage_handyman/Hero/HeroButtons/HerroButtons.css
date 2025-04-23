@@ -1,0 +1,7 @@
+.hero-buttons {
+  width: 327px;
+  height: 48px;
+  gap: 12px;
+  display: flex;
+  flex-direction: row;
+}
